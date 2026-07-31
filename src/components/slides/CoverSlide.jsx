@@ -6,9 +6,9 @@ export default function CoverSlide() {
   const { name, title, bio, contact } = profile
 
   return (
-    <div className="h-full flex flex-col items-center justify-center px-6 md:px-16 gap-10">
+    <div className="min-h-full flex flex-col items-center justify-center px-6 md:px-16 gap-6 py-10">
       <div className="text-center">
-        <div className="font-serif font-bold text-7xl md:text-9xl text-blue-deep mb-3">
+        <div className="font-serif font-bold text-6xl md:text-8xl text-blue-deep mb-3">
           Hello,
         </div>
         <div className="text-xl md:text-2xl text-charcoal-soft">

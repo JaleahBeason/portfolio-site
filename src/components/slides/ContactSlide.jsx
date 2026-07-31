@@ -15,7 +15,7 @@ export default function ContactSlide() {
   }
 
   return (
-    <div className="h-full flex flex-col items-center justify-center px-6 md:px-16 gap-8">
+    <div className="min-h-full flex flex-col items-center justify-center px-6 md:px-16 gap-8 py-10">
       <div className="relative bg-paper/75 backdrop-blur-sm border border-[#E3CBC3] rounded-md p-8 max-w-md w-full shadow-[2px_3px_0_rgba(64,31,40,0.14)]">
         <div
           className="absolute -top-4 -right-4 w-16 h-16 rounded-full border-2 border-brass flex items-center justify-center text-xs text-brass font-semibold rotate-12"

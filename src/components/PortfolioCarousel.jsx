@@ -109,7 +109,7 @@ export default function PortfolioCarousel() {
             animate={{ opacity: 1, rotateY: 0 }}
             exit={{ opacity: 0, rotateY: direction * -75 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
-            className="absolute inset-0 ml-6 md:ml-8"
+            className="absolute inset-0 ml-6 md:ml-8 overflow-y-auto"
             style={{
               transformOrigin: "left center",
               transformStyle: "preserve-3d",

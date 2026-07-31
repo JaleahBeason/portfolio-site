@@ -16,7 +16,7 @@ export default function FoldersSlide({ onOpenCaseStudy }) {
   }
 
   return (
-    <div className="h-full flex flex-col items-center justify-center px-6 md:px-16 gap-8">
+    <div className="min-h-full flex flex-col items-center justify-center px-6 md:px-16 gap-8 py-10">
       <div className="font-serif font-bold text-5xl md:text-6xl text-blue-deep">
         Table of contents
       </div>
