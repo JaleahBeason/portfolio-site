@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Work+Sans:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #F7EFE5;
+  --color-paper-dim: #F2E4D7;
+  --color-charcoal: #2A1B1F;
+  --color-charcoal-soft: #5C4650;
+
+  /* repurposed names, kept for compatibility across components */
+  --color-blue-deep: #401F28;
+  /* wine */
+  --color-blue-mid: #D38492;
+  /* mauve */
+  --color-blue-pale: #EAEBC0;
+  /* pale lime wash */
+  --color-brass: #A7A94F;
+  /* deepened lime, used for eyebrow labels */
+
+  --color-metal: #A8ADB4;
+  --color-lime: #CFD16D;
+  --color-wine: #401F28;
+  --color-mauve: #D38492;
+
+  --font-serif: 'Caveat', cursive;
+  --font-sans: 'Work Sans', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background:
+    radial-gradient(ellipse 60% 45% at 18% 8%, rgba(207, 209, 109, 0.28) 0%, rgba(207, 209, 109, 0) 60%),
+    radial-gradient(ellipse 55% 40% at 85% 12%, rgba(211, 132, 146, 0.24) 0%, rgba(211, 132, 146, 0) 60%),
+    radial-gradient(ellipse 50% 45% at 50% 95%, rgba(64, 31, 40, 0.14) 0%, rgba(64, 31, 40, 0) 60%),
+    repeating-linear-gradient(115deg, rgba(64, 31, 40, 0.035) 0px, rgba(64, 31, 40, 0.035) 1px, transparent 1px, transparent 14px),
+    #F7EFE5;
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-blue-mid);
+  border-radius: 8px;
+}
