@@ -10,7 +10,7 @@ export default function CaseStudySlide({ studyId }) {
   if (!study) return null
 
   return (
-    <div className="h-full flex flex-col items-center justify-center px-6 md:px-16 gap-6 overflow-y-auto py-10">
+    <div className="min-h-full flex flex-col items-center justify-start px-6 md:px-16 gap-6 overflow-y-auto py-10">
       <div className="text-center">
         <div className="font-serif font-bold text-5xl md:text-6xl text-blue-deep">
           {study.name}
