@@ -31,6 +31,17 @@ export const expertiseTags = [
 
 export const experience = [
   {
+    role: "Product Manager",
+    org: "Broadway Apparel",
+    dates: "Jun 2021 to Oct 2024",
+    bullets: [
+      "Owned product lifecycle across four lines, making restocking and discontinuation decisions based on sell-through data and customer feedback",
+      "Managed supplier relationships, negotiating shipping timelines, order quantities, and cost, and switched suppliers when reliability or pricing fell short",
+      "Used customer feedback and sell-through patterns to adjust order volume, reducing stockouts on high-demand items and avoiding overstock on slow movers",
+      "Redesigned store layout based on foot traffic and product performance to improve visibility for underperforming lines",
+    ],
+  },
+  {
     role: "Software/Product Intern",
     org: "Tridna",
     dates: "Dec 2025 to May 2026",
