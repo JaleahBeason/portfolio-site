@@ -83,7 +83,8 @@ export const folders = [
   { id: "devmetrics", label: "01. DevMetrics", kind: "case-study" },
   { id: "bakersparadise", label: "02. BakersParadise", kind: "case-study" },
   { id: "parking-tag", label: "03. Parking Tag Detection", kind: "external", url: "https://github.com/JaleahBeason/Parking-Tag-Detection" },
-  { id: "more-projects", label: "04. More Technical Work", kind: "list" },
+  { id: "tableau", label: "04. Recipe Data in Tableau", kind: "external", url: "https://public.tableau.com/app/profile/jaleah.beason/viz/BakersParadise/BakersParadiseAnalysis" },
+  { id: "more-projects", label: "05. More Technical Work", kind: "list" },
 ]
 
 export const otherProjects = [
