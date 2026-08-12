@@ -1,9 +1,10 @@
 import { useState } from "react"
 import FolderItem from "../FolderItem"
-import { folders, otherProjects } from "../../data/content"
+import { folders, otherProjects, tableauProjects } from "../../data/content"
 
 export default function FoldersSlide({ onOpenCaseStudy }) {
   const [showList, setShowList] = useState(false)
+  const [showTableauList, setShowTableauList] = useState(false)
 
   function handleOpen(folder) {
     if (folder.kind === "case-study") {
@@ -12,6 +13,8 @@ export default function FoldersSlide({ onOpenCaseStudy }) {
       window.open(folder.url, "_blank", "noreferrer")
     } else if (folder.kind === "list") {
       setShowList((v) => !v)
+    } else if (folder.kind === "tableau-list") {
+      setShowTableauList((v) => !v)
     }
   }
 
@@ -31,6 +34,29 @@ export default function FoldersSlide({ onOpenCaseStudy }) {
           />
         ))}
       </div>
+
+      {showTableauList && (
+        <div className="bg-paper/75 backdrop-blur-sm border border-[#E3CBC3] rounded-md p-6 max-w-lg w-full">
+          <div className="text-sm font-semibold text-brass uppercase tracking-wide mb-3">
+            Tableau workspace
+          </div>
+          <ul className="space-y-3">
+            {tableauProjects.map((p) => (
+              <li key={p.name} className="text-sm">
+                <a
+                  href={p.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-medium text-blue-deep hover:underline"
+                >
+                  {p.name}
+                </a>
+                <span className="text-charcoal-soft">: {p.desc}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {showList && (
         <div className="bg-paper/75 backdrop-blur-sm border border-[#E3CBC3] rounded-md p-6 max-w-lg w-full">

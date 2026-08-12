@@ -83,8 +83,14 @@ export const folders = [
   { id: "devmetrics", label: "01. DevMetrics", kind: "case-study" },
   { id: "bakersparadise", label: "02. BakersParadise", kind: "case-study" },
   { id: "parking-tag", label: "03. Parking Tag Detection", kind: "external", url: "https://github.com/JaleahBeason/Parking-Tag-Detection" },
-  { id: "tableau", label: "04. Recipe Data in Tableau", kind: "external", url: "https://public.tableau.com/app/profile/jaleah.beason/viz/BakersParadise/BakersParadiseAnalysis" },
+  { id: "tableau", label: "04. Tableau Workspace", kind: "tableau-list" },
   { id: "more-projects", label: "05. More Technical Work", kind: "list" },
+]
+
+export const tableauProjects = [
+  { name: "Recipe Data", desc: "BakersParadise recipe analytics dashboard", url: "https://public.tableau.com/app/profile/jaleah.beason/viz/BakersParadise/BakersParadiseAnalysis" },
+  { name: "Retail Analytics", desc: "UK online retail sales dashboard, 2010 to 2011", url: "https://public.tableau.com/app/profile/jaleah.beason/viz/OnlineRetailAnalysis10-11/OnlineRetailAnalysis2010-2011" },
+  { name: "Pre-K Cost vs. Outcomes", desc: "State Pre-K spending and quality vs. NAEP reading and math scores", url: "https://public.tableau.com/app/profile/jaleah.beason/viz/Pre-KCostvs_Outcomes/StatePre-KCostvs_Outcomes" },
 ]
 
 export const otherProjects = [
