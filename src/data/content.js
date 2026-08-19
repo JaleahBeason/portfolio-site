@@ -6,7 +6,7 @@ export const profile = {
     email: "jaleah.beason9@gmail.com",
     github: "https://github.com/JaleahBeason",
     linkedin: "https://www.linkedin.com/in/jaleah-beason-a82a11220/",
-    resume: "",
+    resume: "/portfolio-site/JaLeah_Beason_Resume.pdf",
   },
 }
 

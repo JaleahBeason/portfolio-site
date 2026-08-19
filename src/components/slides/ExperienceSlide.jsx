@@ -1,5 +1,5 @@
 import ScrapbookCard from "../ScrapbookCard"
-import { experience, otherExperience } from "../../data/content"
+import { experience, otherExperience, profile } from "../../data/content"
 
 export default function ExperienceSlide() {
   return (
@@ -34,6 +34,17 @@ export default function ExperienceSlide() {
           </span>
         ))}
       </div>
+
+      {profile.contact.resume && (
+        <a
+          href={profile.contact.resume}
+          target="_blank"
+          rel="noreferrer"
+          className="text-sm font-medium px-5 py-2 rounded-full bg-blue-deep text-paper hover:bg-blue-mid transition-colors"
+        >
+          View Full Resume (PDF)
+        </a>
+      )}
     </div>
   )
 }
