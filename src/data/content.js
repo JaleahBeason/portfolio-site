@@ -6,7 +6,7 @@ export const profile = {
     email: "jaleah.beason9@gmail.com",
     github: "https://github.com/JaleahBeason",
     linkedin: "https://www.linkedin.com/in/jaleah-beason-a82a11220/",
-    resume: "/portfolio-site/JaLeah_Beason_Resume.pdf",
+    resume: "/portfolio-site/JaLeah_Beason_Resume_2026.pdf",
   },
 }
 
@@ -31,25 +31,13 @@ export const expertiseTags = [
 
 export const experience = [
   {
-    role: "Product Manager",
-    org: "Broadway Apparel",
-    dates: "Jun 2021 to Oct 2024",
+    role: "Owner",
+    org: "Le Sucre (Baking Business)",
+    dates: "Dec 2022 to Jul 2026",
     bullets: [
-      "Owned product lifecycle across four lines, making restocking and discontinuation decisions based on sell-through data and customer feedback",
-      "Managed supplier relationships, negotiating shipping timelines, order quantities, and cost, and switched suppliers when reliability or pricing fell short",
-      "Used customer feedback and sell-through patterns to adjust order volume, reducing stockouts on high-demand items and avoiding overstock on slow movers",
-      "Redesigned store layout based on foot traffic and product performance to improve visibility for underperforming lines",
-    ],
-  },
-  {
-    role: "Software/Product Intern",
-    org: "Tridna",
-    dates: "Dec 2025 to May 2026",
-    bullets: [
-      "Retrieved, cleaned, and inputted sports analytics data to support development of an emerging betting application",
-      "Collaborated with cross-functional teams on platform development, feature organization, and workflow analysis",
-      "Integrated and evaluated live data within testing environments to support application functionality",
-      "Participated in Agile-style collaboration and technical problem-solving discussions",
+      "Ran a cookie, brownie, and cinnamon roll business solo end-to-end: buying, production, quality control, pricing, and customer fulfillment",
+      "Sourced ingredients through bulk buying at Restaurant Depot and Costco, balancing cost against quality through hands-on taste and quality testing",
+      "Owned the full customer relationship, from order to delivery, in a fast-paced, deadline-driven environment",
     ],
   },
   {
@@ -57,27 +45,61 @@ export const experience = [
     org: "Essential Innovations",
     dates: "Jan 2026 to Jun 2026",
     bullets: [
-      "Analyzed operational data to support system planning and workflow optimization",
-      "Evaluated data accuracy and tagging structures for database organization",
-      "Presented analytical findings and recommendations to support platform development decisions",
+      "Queried and evaluated data and tagging structures across three integrated government benefits systems (TANF, SNAP, Medicaid) using SQL, independently identifying root causes of data-quality discrepancies and resolving them",
+      "Owned recurring reporting for stakeholders, building and maintaining data structures in Excel and documenting findings for technical and non-technical audiences",
+      "Supported consolidation of multiple benefits applications into a single unified intake system, improving downstream data quality and eligibility routing",
     ],
   },
   {
-    role: "Administrative Student Assistant",
-    org: "Bellarmine University",
-    dates: "Aug 2020 to May 2024",
+    role: "Software/Product Intern",
+    org: "Tridna",
+    dates: "Dec 2025 to May 2026",
     bullets: [
-      "Coordinated event logistics and designed promotional materials for identity and inclusion programming",
-      "Built and maintained spreadsheets using formulas and pivot tables to support administrative decision-making",
-      "Maintained and organized student intake records, rosters, and departmental data using Excel",
+      "Partnered with the product team to gather stakeholder requirements and translate them into specifications and backlog items the engineering team could build against",
+      "Used usage-metric and user-behavior data insights to recognize what made features valuable and prioritize a roadmap centered on user experience",
+      "Participated in Agile ceremonies including sprint planning and backlog grooming, collaborating closely with engineers and designers",
+    ],
+  },
+  {
+    role: "Client Service Representative, 401(k) Division",
+    org: "ADP",
+    dates: "Apr 2025 to Sep 2025",
+    bullets: [
+      "Served as a trusted point of contact for enterprise clients, diagnosing account issues and escalating to internal technical teams with full context for resolution under deadline pressure",
+      "Investigated and documented client-reported issues, building and sustaining professional relationships while translating technical detail into plain-language explanations",
+    ],
+  },
+  {
+    role: "Merchandising Associate",
+    org: "Broadway Apparel",
+    dates: "Jun 2021 to Oct 2024",
+    bullets: [
+      "Used sell-through data and customer feedback across four product lines to inform restocking, discontinuation, and merchandising decisions",
+      "Negotiated shipping timelines, order quantities, and cost directly with suppliers, switching vendors when reliability or pricing no longer held up",
+      "Tracked performance metrics across product lines and flagged risks early to support planning",
+    ],
+  },
+  {
+    role: "Sales Associate",
+    org: "Kia",
+    dates: "Jan 2024 to Apr 2024",
+    bullets: [
+      "Guided customers through product and financing comparisons on the sales floor, translating options into clear recommendations that closed sales",
+      "Built rapport quickly with a broad customer base in a fast-paced, target-driven retail environment",
+    ],
+  },
+  {
+    role: "Warehouse Associate (Seasonal)",
+    org: "Amazon",
+    dates: "2022",
+    bullets: [
+      "Gained first-hand exposure to Amazon's fulfillment network and operational standards while supporting high-volume picking, packing, and sorting during peak season",
+      "Met throughput and accuracy targets in a fast-paced, deadline-driven fulfillment environment",
     ],
   },
 ]
 
-export const otherExperience = [
-  { role: "Client Services Representative, 401(k) Division", org: "ADP", dates: "Apr 2025 to Sep 2025" },
-  { role: "Patient Associate", org: "Norton Healthcare", dates: "Oct 2021 to Sep 2022" },
-]
+export const otherExperience = []
 
 export const folders = [
   { id: "devmetrics", label: "01. DevMetrics", kind: "case-study" },
@@ -98,6 +120,7 @@ export const otherProjects = [
   { name: "devmetrics-api", desc: "REST API built on loglens's analysis logic", url: "https://github.com/JaleahBeason/devmetrics-api" },
   { name: "devmetrics-dashboard", desc: "React dashboard for the API", url: "https://github.com/JaleahBeason/devmetrics-dashboard" },
   { name: "ASMBytecode_JRB", desc: "Java bytecode analyzer built with the ASM framework", url: "https://github.com/JaleahBeason/ASMBytecode_JRB" },
+  { name: "Pre-K Pivot Tables (Excel)", desc: "Practice workbook: 4 pivot tables analyzing state Pre-K spending, enrollment, and quality data", url: "/portfolio-site/PreK_Pivot_Tables.xlsx" },
 ]
 
 export const caseStudies = {

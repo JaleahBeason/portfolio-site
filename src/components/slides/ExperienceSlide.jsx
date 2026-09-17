@@ -27,13 +27,15 @@ export default function ExperienceSlide() {
         ))}
       </div>
 
-      <div className="text-sm text-charcoal-soft/80 max-w-2xl text-center">
-        Also: {otherExperience.map((o, i) => (
-          <span key={o.org}>
-            {o.role} at {o.org} ({o.dates}){i < otherExperience.length - 1 ? ", " : ""}
-          </span>
-        ))}
-      </div>
+      {otherExperience.length > 0 && (
+        <div className="text-sm text-charcoal-soft/80 max-w-2xl text-center">
+          Also: {otherExperience.map((o, i) => (
+            <span key={o.org}>
+              {o.role} at {o.org} ({o.dates}){i < otherExperience.length - 1 ? ", " : ""}
+            </span>
+          ))}
+        </div>
+      )}
 
       {profile.contact.resume && (
         <a
